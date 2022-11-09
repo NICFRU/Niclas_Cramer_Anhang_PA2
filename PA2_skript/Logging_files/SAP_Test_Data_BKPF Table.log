@@ -1,0 +1,69 @@
+Start of overall process: SAP_Test_Data_BKPF Table
+--------------------------------------------------------------------------------
+Processing: "SAP_Test_Data_BKPF Table.csv"
+Number of seperations: 22
+Finished: "SAP_Test_Data_BKPF Table.csv"
+Statistics:	Processed lines:	2500	skipped lines:	0	replaced BOM:	0	replaced ":0	replaced "00" bytes:	0	skipped values #N/A:	0	skipped values #DIV/0!:	0	header found:	yes
+
+
+=============== Statistics ===============
+Total processed files: 	1
+Processed lines:	2500
+Total skipped lines: 0
+Total replaced -1.#IND:  0
+Total replaced 1.#QNAN:  0
+Total replaced 1.#IND:  0
+Total replaced -1.#QNAN:  0
+Total replaced #N/A N/A:  0
+Total skipped  #N/A:  0
+Total replaced N/A:  0
+Total replaced n/a:  0
+Total replaced NA:  0
+Total replaced #NA:  0
+Total replaced NULL:  0
+Total replaced null:  0
+Total replaced NaN:  0
+Total replaced -NaN:  0
+Total replaced nan:  0
+Total replaced -nan:  0
+Total skipped  #VALUE!:  0
+Total skipped  #DIV/0!:  0
+Total replaced 00:  0
+replaced BOM:	0
+Number of lines in the TXT File after the header: 2500
+Number of elements in the processed file: 2500
+Total replaced ": 0
+Deleted lines : []
+End of logging the file, without problems: "SAP_Test_Data_BKPF Table.csv"
+Duration of "SAP_Test_Data_BKPF Table.csv" for processsing: 1.1042961 seconds
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+
+created individual APP File SAP_Test_Data_BKPF Table.txt_processed
+End of individual APP File SAP_Test_Data_BKPF Table.txt_processed creation with the needed time: 0.0012997000000001258 seconds 
+
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+
+created collection of APP Files
+
+End of collection of APP Files creation with the needed time: 0.0012045000000000528 seconds 
+
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+
+created SQL File SAP_Test_Data_BKPF Table.sql
+---------------------------------------------------------------------------
+
+
+
+
+Duration of "SAP_Test_Data_BKPF Table" SQL Creation: 0.008434799999999854 seconds
+
+Duration of "SAP_Test_Data_BKPF Table" for processsing: 1.1202655000000001 seconds

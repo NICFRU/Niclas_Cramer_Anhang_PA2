@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div class="bk-root" id="22305aac-fef4-483f-9cb8-294a19a29125" data-root-id="1528"></div>
+  
+    <script type="application/json" id="1943">
+      {"2a045f3a-a894-4f3b-b4f9-248b40aaf130":{"defs":[],"roots":{"references":[{"attributes":{"tools":[{"id":"1547"}]},"id":"1548","type":"Toolbar"},{"attributes":{},"id":"1535","type":"LinearScale"},{"attributes":{},"id":"1561","type":"BasicTickFormatter"},{"attributes":{"start":-0.5},"id":"1531","type":"Range1d"},{"attributes":{"field":"angle","include_zero":true},"id":"1550","type":"CumSum"},{"attributes":{},"id":"1562","type":"AllLabels"},{"attributes":{},"id":"1544","type":"BasicTicker"},{"attributes":{"end_angle":{"expr":{"id":"1551"}},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1550"}},"x":{"value":0},"y":{"value":1}},"id":"1554","type":"Wedge"},{"attributes":{"axis":{"id":"1543"},"coordinates":null,"dimension":1,"grid_line_color":null,"group":null,"ticker":null},"id":"1546","type":"Grid"},{"attributes":{"end_angle":{"expr":{"id":"1551"}},"fill_alpha":{"value":0.2},"fill_color":{"field":"color"},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1550"}},"x":{"value":0},"y":{"value":1}},"id":"1556","type":"Wedge"},{"attributes":{"align":"center","coordinates":null,"group":null,"text":"Possible Types in the File","text_font_size":"15px"},"id":"1529","type":"Title"},{"attributes":{},"id":"1537","type":"LinearScale"},{"attributes":{"field":"angle"},"id":"1551","type":"CumSum"},{"attributes":{},"id":"1540","type":"BasicTicker"},{"attributes":{"coordinates":null,"data_source":{"id":"1552"},"glyph":{"id":"1554"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1556"},"nonselection_glyph":{"id":"1555"},"view":{"id":"1558"}},"id":"1557","type":"GlyphRenderer"},{"attributes":{"coordinates":null,"formatter":{"id":"1561"},"group":null,"major_label_policy":{"id":"1562"},"ticker":{"id":"1544"},"visible":false},"id":"1543","type":"LinearAxis"},{"attributes":{},"id":"1533","type":"DataRange1d"},{"attributes":{"axis":{"id":"1539"},"coordinates":null,"grid_line_color":null,"group":null,"ticker":null},"id":"1542","type":"Grid"},{"attributes":{},"id":"1566","type":"UnionRenderers"},{"attributes":{"end_angle":{"expr":{"id":"1551"}},"fill_alpha":{"value":0.1},"fill_color":{"field":"color"},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"radius":{"value":0.4},"start_angle":{"expr":{"id":"1550"}},"x":{"value":0},"y":{"value":1}},"id":"1555","type":"Wedge"},{"attributes":{"coordinates":null,"formatter":{"id":"1564"},"group":null,"major_label_policy":{"id":"1565"},"ticker":{"id":"1540"},"visible":false},"id":"1539","type":"LinearAxis"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"1569"}]},"id":"1568","type":"Legend"},{"attributes":{},"id":"1567","type":"Selection"},{"attributes":{},"id":"1564","type":"BasicTickFormatter"},{"attributes":{"label":{"field":"country"},"renderers":[{"id":"1557"}]},"id":"1569","type":"LegendItem"},{"attributes":{"source":{"id":"1552"}},"id":"1558","type":"CDSView"},{"attributes":{"callback":null,"tooltips":[["name","@country"],["Columns","@value"],["Percent","@perc"]]},"id":"1547","type":"HoverTool"},{"attributes":{"below":[{"id":"1539"}],"center":[{"id":"1542"},{"id":"1546"},{"id":"1568"}],"left":[{"id":"1543"}],"max_height":1000,"max_width":1000,"renderers":[{"id":"1557"}],"sizing_mode":"stretch_both","title":{"id":"1529"},"toolbar":{"id":"1548"},"toolbar_location":null,"x_range":{"id":"1531"},"x_scale":{"id":"1535"},"y_range":{"id":"1533"},"y_scale":{"id":"1537"}},"id":"1528","subtype":"Figure","type":"Plot"},{"attributes":{"data":{"angle":{"__ndarray__":"/mlGScTaBUD+aUZJxNr1PzK7njrQe/E/MrueOtB78T8=","dtype":"float64","order":"little","shape":[4]},"color":["#238b45","#66c2a4","#b2e2e2","#edf8fb"],"country":["float64","datetime64[ns]","int32","object"],"index":[0,1,2,3],"perc":{"__ndarray__":"d76fGi+9RUB3vp8aL701QGq8dJMYZDFAarx0kxhkMUA=","dtype":"float64","order":"little","shape":[4]},"value":[10,5,4,4]},"selected":{"id":"1567"},"selection_policy":{"id":"1566"}},"id":"1552","type":"ColumnDataSource"},{"attributes":{},"id":"1565","type":"AllLabels"}],"root_ids":["1528"]},"title":"Bokeh Application","version":"2.4.3"}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('1943').textContent;
+              const render_items = [{"docid":"2a045f3a-a894-4f3b-b4f9-248b40aaf130","root_ids":["1528"],"roots":{"1528":"22305aac-fef4-483f-9cb8-294a19a29125"}}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
