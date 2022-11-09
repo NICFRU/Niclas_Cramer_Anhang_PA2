@@ -6,10 +6,16 @@ before execution of the script execute following lines if not already satisfied
 
 ## to run the script
 - copy raw data into the "RawData" folder
-- you get this folder structure:
+- change variables in Config.py
+- execute Config.py
+    - the folder structure will be created
+    - the files will be automaticly created 
+- execute Multi_app 
+    -  go to path:  http://127.0.0.1:8082
 
 
-## Elements before execution 
+
+### Elements before execution 
 -	Apps
     -	app_overview.py
 -	modules
@@ -28,30 +34,32 @@ or navigate with the cmd to the folder where the config.py file with: python3 co
 
 
 
-## Folder structure after execution
+### Folder structure after execution
 
-–	Apps
-–	Logging_files
-–	Modules
-    -	converter.py
-    -	create_app_for_files.py
-    -	create_colective_app_script.py
-    -	create_SQL_file.py
-    -	overall_funktions.py
-–	Picture
-    -	Html aller erstellten Grafiken
-–	Processed
-–	RawData
-–	Sql_files
-–	Config.py
-–	Multi_app.py
-–	README.md
-–	Requirements.txt
+- Apps
+- Logging_files
+- Modules
+    - converter.py
+    - create_app_for_files.py
+    - create_colective_app_script.py
+    - create_SQL_file.py
+    - overall_funktions.py
+- Picture
+    - Html aller erstellten Grafiken
+- Processed
+- RawData
+- Sql_files
+- Config.py
+- Multi_app.py
+- README.md
+- Requirements.txt
 
 ## overview
 
 ### Config.py 
 -	Combines the execution of the other tables together to have a single entity for the execution of the whole process
+
+
 ### Multi_app.py 
 -	The initial program to start the visual inside of the tables 
 
