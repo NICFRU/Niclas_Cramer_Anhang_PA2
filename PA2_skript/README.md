@@ -1,8 +1,8 @@
 # Usage:
 before execution of the script execute following lines if not already satisfied  
-•	python get-pip.py
-•	pip install pip
-    pip install -r requirements.txt
+- python get-pip.py
+- pip install pip
+- pip install -r requirements.txt
 
 ## to run the script
 - copy raw data into the "RawData" folder
