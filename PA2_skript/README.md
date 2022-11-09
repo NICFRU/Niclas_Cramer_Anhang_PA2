@@ -4,7 +4,7 @@ before execution of the script execute following lines if not already satisfied
 - pip install pip
 - pip install -r requirements.txt
 
-# to run the script
+# Execution of the script 
 - copy raw data into the "RawData" folder
 - change variables in Config.py
 - execute Config.py
