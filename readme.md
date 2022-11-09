@@ -1,4 +1,4 @@
-# PA2_Skript:
+# PA2_Skript
 - Enthält das Skript für die Ausführung der Anwendung
 - Beinhaltet die Eingangsdaten, Prozesse und Ausgangsdaten, wie in der Arbeit beschrieben
 
