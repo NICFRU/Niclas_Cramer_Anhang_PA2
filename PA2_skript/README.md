@@ -4,7 +4,7 @@ before execution of the script execute following lines if not already satisfied
 - pip install pip
 - pip install -r requirements.txt
 
-## to run the script
+# to run the script
 - copy raw data into the "RawData" folder
 - change variables in Config.py
 - execute Config.py
@@ -15,7 +15,7 @@ before execution of the script execute following lines if not already satisfied
 
 
 
-### Elements before execution 
+## Elements before execution 
 -	Apps
     -	app_overview.py
 -	modules
@@ -34,7 +34,7 @@ or navigate with the cmd to the folder where the config.py file with: python3 co
 
 
 
-### Folder structure after execution
+## Folder structure after execution
 
 - Apps
 - Logging_files
@@ -54,36 +54,36 @@ or navigate with the cmd to the folder where the config.py file with: python3 co
 - README.md
 - Requirements.txt
 
-## overview
+# overview
 
-### Config.py 
+## Config.py 
 -	Combines the execution of the other tables together to have a single entity for the execution of the whole process
 
 
-### Multi_app.py 
+## Multi_app.py 
 -	The initial program to start the visual inside of the tables 
 
 
-### converter.py 
+## converter.py 
 -	 Pre-processes the csv or txt file with converter.py script
 -	Identifies lines with too many column separators 
 -	Deletes those extra semicolons and saved file to processed - MANUALLY! based on file.txt in the Logging_files folder:
 -	replaces quotation marks and values which represent an empty value 
 -	creates an overview of the data in the logging folder
 
-### create_SQL_file.py
+## create_SQL_file.py
 -	Creates SQL import script with create_SQL_file.py
 -	Generated script can be used to import to SQL db (DB must  be created first)
 
 
-### create_colective_app_script.py 
+## create_colective_app_script.py 
 -	Creates a script, which is a collected  script of the visual representation of the files
 
 
-### create_app_for_files.py
+## create_app_for_files.py
 -	Generates scripts which allows a overview of the table to get an inside of the meta information 
 
 
-### overall_funktions.py
+## overall_funktions.py
 -	Contains functions for the other modules to use
 
