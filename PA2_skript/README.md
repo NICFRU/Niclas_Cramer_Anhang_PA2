@@ -1,13 +1,15 @@
-**Usage:**
+# Usage:
 before execution of the script execute following lines if not already satisfied  
 •	python get-pip.py
 •	pip install pip
     pip install -r requirements.txt
 
-**to run the script**
+## to run the script
 - copy raw data into the "RawData" folder
 - you get this folder structure:
 
+
+## Elements before execution 
 -	Apps
     -	app_overview.py
 -	modules
@@ -26,7 +28,7 @@ or navigate with the cmd to the folder where the config.py file with: python3 co
 
 
 
-**Folder structure after execution**
+## Folder structure after execution
 
 –	Apps
 –	Logging_files
@@ -46,7 +48,7 @@ or navigate with the cmd to the folder where the config.py file with: python3 co
 –	README.md
 –	Requirements.txt
 
-**overview**
+## overview
 
 -------------- Config.py -----------------------
 -	Combines the execution of the other tables together to have a single entity for the execution of the whole process
