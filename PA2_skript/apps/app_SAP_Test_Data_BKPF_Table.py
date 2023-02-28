@@ -85,7 +85,7 @@ class SAP_Test_Data_BKPF_Table(server.App):
 			data_fix["perc"]=[100,0]
 		else:
 			data_fix["perc"]=round(data_fix["value"]/data_fix["value"].sum()*100,3)
-		p = figure(sizing_mode="stretch_both",max_width=800,max_height=800, toolbar_location=None,tools="hover", tooltips=[("name", "@country"),("Value", "@value"), ("Percent", "@perc")], x_range=(-0.5, 1.0), title="Null Values vs Not Null Values")
+		p = figure(sizing_mode="stretch_both",max_width=800,max_height=800, toolbar_location=None,tools="hover", tooltips=[("name", "@country"),("Value", "@value"), ("Percent", "@perc")], x_range=(-0.5, 1.0), title="NULL Values vs Not Null Values")
 		p.title.align = "center"
 		p.title.text_font_size = "15px"
 		p.wedge(x=0, y=1, radius=0.4,

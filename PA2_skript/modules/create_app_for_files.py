@@ -178,7 +178,7 @@ def app_generator(author,path,file,app_folder='apps'):
     fp.write('\t\telse:\n')
     fp.write('\t\t\tdata_fix["perc"]=round(data_fix["value"]/data_fix["value"].sum()*100,3)\n')
 
-    fp.write('\t\tp = figure(sizing_mode="stretch_both",max_width=800,max_height=800, toolbar_location=None,tools="hover", tooltips=[("name", "@country"),("Value", "@value"), ("Percent", "@perc")], x_range=(-0.5, 1.0), title="Null Values vs Not Null Values")\n')
+    fp.write('\t\tp = figure(sizing_mode="stretch_both",max_width=800,max_height=800, toolbar_location=None,tools="hover", tooltips=[("name", "@country"),("Value", "@value"), ("Percent", "@perc")], x_range=(-0.5, 1.0), title="NULL Values vs NOT-NULL Values")\n')
     fp.write('\t\tp.title.align = "center"\n')
     fp.write('\t\tp.title.text_font_size = "15px"\n')
     fp.write('''\t\tp.wedge(x=0, y=1, radius=0.4,

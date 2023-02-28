@@ -154,7 +154,7 @@ class overview(server.App):
         else:
             data_fix['perc']=round(data_fix['value']/data_fix['value'].sum()*100,3)
         
-        p = plotting.figure(sizing_mode='stretch_both',max_width=1000,max_height=1000, title="Total Null vs NotNull Values over complete File", toolbar_location=None,
+        p = plotting.figure(sizing_mode='stretch_both',max_width=1000,max_height=1000, title="Total NULL vs NOT-NULL Values over complete File", toolbar_location=None,
                             tools="hover", tooltips=[('name', "@country"), ("Value", "@value"), ("Percent", "@perc")], x_range=(-0.5, 1.0))
         p.title.align = "center"
         p.title.text_font_size = "15px"
@@ -275,7 +275,7 @@ class overview(server.App):
                 }
         source = ColumnDataSource(data=data)
         
-        p = plotting.figure(x_range = langs, sizing_mode='stretch_both',toolbar_location=None, tools="", title="Unique values with qual or more than 200  unique values")
+        p = plotting.figure(x_range = langs, sizing_mode='stretch_both',toolbar_location=None, tools="", title="Unique values with equal or more than 200 unique values")
         p.title.align = "center"
         p.title.text_font_size = "15px"
         p.xaxis.major_label_orientation = "vertical"
@@ -312,7 +312,7 @@ class overview(server.App):
         'notnull'   : [ int(x) for x in pbjekts['not_null'].to_list() ]}
         source = ColumnDataSource(data=data)
         
-        p = plotting.figure(x_range = NullNotNull, sizing_mode='stretch_both',toolbar_location=None, tools="", title="Null vs NotNull")
+        p = plotting.figure(x_range = NullNotNull, sizing_mode='stretch_both',toolbar_location=None, tools="", title="NULL vs NOT-NULL")
         p.title.align = "center"
         p.title.text_font_size = "15px"
         p.xaxis.major_label_orientation = "vertical"
